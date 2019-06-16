@@ -2,7 +2,6 @@ import React, { useState } from 'react';
 import { View, TouchableOpacity, Text } from 'react-native';
 import AnimatedComponent from './AnimatedComponent';
 
-
 const App = () => {
   const [doAnimation, setDoAnimation] = useState(false);
   return (
@@ -25,6 +24,5 @@ const App = () => {
     </View>
   )
 };
-
 
 export default App;
